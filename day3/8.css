@@ -1,0 +1,22 @@
+/*for all div*/
+div {
+    margin-bottom: 8px;
+    padding: 8px;
+  
+    color: red;
+    background: yellow;
+  }
+  
+  /* TO SELECTOR DEMO :: USING SPECIAL CHAR*/
+  /* APPLIES TO ONLY ONE*/
+  # id1{
+    colour: white;
+    background: green;
+  }
+
+  /* class selector :: using spl Char dot . */
+  .class{
+    colour:white;
+    background: lavender;
+
+  }
