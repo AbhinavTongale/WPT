@@ -1,0 +1,10 @@
+.beautify {
+    color: white;
+    background: linear-gradient(to right, rgb(212, 45, 73), rgb(18, 189, 75));
+    margin-bottom: 2px;
+    height: 150px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
