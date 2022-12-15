@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project Management CRUD</title>
+</head>
+<body>
+  <h1>Project Management CRUD</h1>
+  <form action="">
+    <table>
+      <tr>
+        <td>Project Name:</td>
+        <td><input type="text" name="projectname" id="projectname" /></td>
+      </tr>
+      <tr>
+        <td>Project Description:</td>
+        <td><textarea name="description" id="description" cols="30" rows="10"></textarea></td>
+      </tr>
+      <tr>
+        <td>Project Category:</td>
+        <td>
+          <select name="projectcategory" id="projectcategory">
+            <option value="">Select a category</option>
+            <option value="Project ID">Project ID</option>
+            <option value="Project Name">Project Name</option>
+            <option value="Project Cost">Project Cost</option>
+            <option value="Project Deadline">Project Deadline</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Project Status:</td>
+        <td>
+          <input type="radio" name="status" id="status" value="active" /> Active
+          <input type="radio" name="status" id="status" value="inactive" /> Inactive
+        </td>
+      </tr>
+      <tr>
+        <td>Deadline:</td>
+        <td><input type="date" name="deadline" id="deadline" /></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <input type="button" name="create" id="create" value="Create" />
+          <input type="button" name="update" id="update" value="Update" />
+          <input type="button" name="delete" id="delete" value="Delete" />
+        </td>
+      </tr>
+    </table>
+  </form>
+  <div id="result"></div>
+</body>
+</html>
